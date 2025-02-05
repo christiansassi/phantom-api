@@ -6,7 +6,7 @@
 
 ## Table of contents
 
--   [Introduction](##introduction)
+-   [Introduction](#introduction)
     -   [Supported Chains](#supported-chains)
 -   [Functionalities](#functionalities)
     -   [Learn - learn.py](#learn---learnpy)
@@ -111,4 +111,5 @@ Unofficial library for interacting with the [Phantom Wallet](https://phantom.app
 
 ## What's Missing
 
-This project does not yet support all RPC-based functions, such as token swapping.
+- [TODO](https://github.com/christiansassi/phantom-api/blob/64f8a6ce7ab748b544578124c95d2466c928823e/phantom_api/wallet.py#L230) Implement seamless navigation between multiple transaction pages.
+- This project does not yet support all RPC-based functions, such as token swapping.
