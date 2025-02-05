@@ -227,7 +227,7 @@ def get_history(wallet_addresses: List[tuple[ChainId, str]], all_results: bool =
         history.extend(results["results"])
         return history
     
-        # TODO Implement navigation between multiple transaction pages seamlessly
+        # TODO Implement seamless navigation between multiple transaction pages
         if results["next"] is None:
             break
 
